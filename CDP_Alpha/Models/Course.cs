@@ -8,7 +8,7 @@ namespace CDP_Alpha.Models
         public string CourseName { get; set; }
         public string AuthenticationKey { get; set; }
         public List<Feedback> Feedbacks { get; set; }
-        public int MyProperty { get; set; }
-        public List<Topic> Topics { get; set; }
+        public List<Trainer> Trainers { get; set; }
+        public List<Trainee> Trainees { get; set; }
     }
 }
